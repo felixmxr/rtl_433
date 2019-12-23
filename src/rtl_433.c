@@ -77,6 +77,7 @@ static void print_version(void)
 static void usage(int exit_code)
 {
     term_help_printf(
+	    "@felixmxr modded\n"
             "Generic RF data receiver and decoder for ISM band devices using RTL-SDR and SoapySDR.\n"
             "\nUsage:\n"
             "\t\t= General options =\n"
